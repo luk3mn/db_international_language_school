@@ -8,13 +8,13 @@ This project refers to a one-tier data pipeline for SQL data ingestion and has t
         - interface/
         - model/
         - main.py
-        - sqlite.db
+        - db_sqlite.db
     - terraform/
     - app.py
     - docker-compose.py
 
 ## Features: 
-- It will be used pylint to keep code in conforming PEP8 and pytest to make code verifications
+It will be used pylint to keep code in conforming PEP8 and pre-commit to apply and update requirements.txt of the project, and still verify pylint on commit
 
 ## 1. Database
 
